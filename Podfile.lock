@@ -1,0 +1,16 @@
+PODS:
+  - FreshchatSDK (4.1.0)
+
+DEPENDENCIES:
+  - FreshchatSDK (= 4.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FreshchatSDK
+
+SPEC CHECKSUMS:
+  FreshchatSDK: d2cb431045049aa73393129250389de52a7d9ad1
+
+PODFILE CHECKSUM: 7137c1be390a68f62b3058bd744fef5673bfa24c
+
+COCOAPODS: 1.10.0
