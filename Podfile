@@ -7,6 +7,6 @@ target 'StaticLibTest' do
   
   pod 'FreshchatSDK', '4.1.0'
   
-  #pod 'DispatcherChat', :path => './Dependencies/DispatcherChat', :testspecs => ['UnitTests'], :modular_headers => true
+  pod 'DispatcherChat', :path => './Dependencies/DispatcherChat', :modular_headers => true
 
 end

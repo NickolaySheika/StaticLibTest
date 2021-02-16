@@ -1,16 +1,24 @@
 PODS:
+  - DispatcherChat (1.0.0):
+    - FreshchatSDK (= 4.1.0)
   - FreshchatSDK (4.1.0)
 
 DEPENDENCIES:
+  - DispatcherChat (from `./Dependencies/DispatcherChat`)
   - FreshchatSDK (= 4.1.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - FreshchatSDK
 
+EXTERNAL SOURCES:
+  DispatcherChat:
+    :path: "./Dependencies/DispatcherChat"
+
 SPEC CHECKSUMS:
+  DispatcherChat: 0e9c07489842065bdce100683fd1f297ddfdef45
   FreshchatSDK: d2cb431045049aa73393129250389de52a7d9ad1
 
-PODFILE CHECKSUM: 7137c1be390a68f62b3058bd744fef5673bfa24c
+PODFILE CHECKSUM: d24dce4edc780f19362114ff48ba796d6d7d7eab
 
 COCOAPODS: 1.10.0
