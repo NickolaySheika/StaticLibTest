@@ -1,0 +1,58 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+Foodora.xcworkspace/xcshareddata/*
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.DS_Store
+
+# CocoaPods
+Pods/
+
+# Node
+node_modules/
+package-lock.json
+
+# Carthage
+Carthage/*
+
+# Fastlane
+fastlane/*.md
+fastlane/*.xml
+fastlane/test_output/*
+test-build-config.sh
+
+# Localization
+Foodora/Resources/Localizable/*
+
+# Intellij
+.idea/
+*.iml
+.build
+
+# Coday Code Coverage
+fastlane/.codacy-coverage/codacy-coverage-reporter
+fastlane/build_scripts/code_coverage/cobertura.xml
